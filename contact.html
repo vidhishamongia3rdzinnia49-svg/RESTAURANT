@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+<body>
+    <div class="map">
+ <iframe
+  src="https://www.google.com/maps?q=Delhi&output=embed"
+  width="100%"
+  height="400"
+  style="border:0;"
+  loading="lazy">
+</iframe>
+
+</div>
+<div class="reservation">
+  <h2>Book a Table</h2>
+
+  <form onsubmit="bookTable(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="Number of Guests" required>
+    <button type="submit">Reserve Now</button>
+  </form>
+</div>
+
+
+</body>
+</html>
